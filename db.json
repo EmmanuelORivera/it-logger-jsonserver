@@ -1,16 +1,47 @@
 {
-  "posts":[
+  "logs": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": 1,
+      "message": "Cambiar disco duro de maquina 102",
+      "attention": true,
+      "tech": "Emmanuel Ochoa",
+      "date": "2020-06-13T21:53:48.600Z"
+    },
+    {
+      "id": 2,
+      "message": "[Funcionando] Se cambiaron nuevos cables de red en departamento 101",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2020-06-13T21:50:41.421Z"
+    },
+    {
+      "message": "[Urgente] la red de Internet no funciona en la estación de trabajo 21",
+      "attention": true,
+      "tech": "Sam Smith",
+      "date": "2020-06-13T21:52:18.765Z",
+      "id": 3
     }
   ],
-  "comments" : [
+  "techs": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    {
+      "id": 2,
+      "firstName": "Sam",
+      "lastName": "Smith"
+    },
+    {
+      "firstName": "Emmanuel",
+      "lastName": "Ochoa",
+      "id": 5
+    },
+    {
+      "firstName": "Juan",
+      "lastName": "Perez",
+      "id": 6
     }
   ]
 }
